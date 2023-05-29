@@ -1,0 +1,16 @@
+query MyQuery {
+  countries {
+    capital
+    code
+    currency
+    emoji
+    name
+    phone
+    states {
+      name
+    }
+    languages {
+      name
+    }
+  }
+}
